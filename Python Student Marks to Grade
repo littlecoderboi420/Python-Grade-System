@@ -1,0 +1,34 @@
+stuname=input("Enter your Name")
+num=float(input("Enter your Marks"))
+
+
+if num>=91 and num<=100:
+    print("Congratulations",stuname,"Your grade is A1")
+
+elif num>=81 and num<91:
+    print("Congratulations",stuname,"Your grade is A2")
+
+elif num>=71 and num<81:
+    print("Congratulations",stuname,"Your grade is B1")
+
+elif num>=61 and num<71:
+    print("Congratulations",stuname,"Your grade is B2")
+
+elif num>=51 and num<61:
+    print("Congratulations",stuname,"Your grade is C1")
+
+elif num>=41 and num<51:
+    print("Congratulations",stuname,"Your grade is C2")
+
+elif num>=32 and num<41:
+    print("Congratulations",stuname,"Your grade is D")
+
+elif num>=21 and num<32:
+    print("Dear",stuname,"Your grade is E1")
+
+elif num<=20 and num>=0:
+    print("Dear",stuname,"Your grade is E2")
+
+else:
+    print("You entered wrong marks",stuname)
+
